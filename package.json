@@ -1,0 +1,21 @@
+{
+  "name": "localserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
